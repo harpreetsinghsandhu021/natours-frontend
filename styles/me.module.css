@@ -1,0 +1,48 @@
+.dashboard {
+  min-height: 80rem;
+  margin: 10rem auto;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 2rem;
+  width: min(135rem);
+  background-color: #fff;
+  border-radius: 2rem;
+  border: 1px solid #3a3a3a3c;
+  color: #000;
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.4rem;
+}
+.sidebar {
+  padding: 4rem;
+  border-radius: 2rem;
+  flex: 0.18;
+  border: 1px solid #3a3a3a3c;
+  /* background-color: #0a0a0a; */
+}
+.cnt {
+  flex: 1;
+  border-radius: 2rem;
+  border: 1px solid #3a3a3a3c;
+}
+.navigation {
+  list-style: none;
+}
+.nav_link {
+  margin: 2rem 0;
+}
+.link {
+  padding: 1rem 0;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  transition: all 0.4s ease;
+}
+.link:hover {
+  transform: translateX(1rem);
+}
+.link__active {
+  color: var(--btn--color);
+  transform: translateX(1rem);
+}

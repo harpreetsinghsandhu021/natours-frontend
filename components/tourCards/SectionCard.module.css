@@ -1,0 +1,17 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 1rem;
+}
+.page__link {
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.arrow {
+  cursor: pointer;
+}
+.active {
+  background-color: var(--btn--color);
+}

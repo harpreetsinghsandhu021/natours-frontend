@@ -1,0 +1,9 @@
+.file__picker {
+}
+.file__picker img {
+  border: 5px solid var(--btn--color);
+  width: 16rem;
+  height: 16rem;
+  object-fit: cover;
+  border-radius: 50%;
+}

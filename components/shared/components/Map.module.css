@@ -1,0 +1,94 @@
+.map_wrap {
+  width: 100%;
+  margin: 1rem 0;
+  width: 100rem;
+  /* border-radius: 2rem; */
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  height: 55rem;
+}
+.map__border {
+  border-radius: 2rem !important;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  width: 130rem;
+  overflow-y: scroll;
+  justify-content: center;
+}
+.form__map {
+  background-color: #2c3438 !important;
+  height: 55rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  padding: 4rem 2rem;
+  color: #fff;
+  overflow-y: scroll;
+  width: 25%;
+}
+.form__inner {
+  /* display: flex; */
+  gap: 0;
+  padding: 0.4rem 1rem;
+  margin: 1rem 0;
+  border-radius: 1rem;
+  background-color: #42484c;
+}
+.form__inner > * {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+.form__inner label {
+  /* width: 10rem; */
+  padding-bottom: 0.4rem;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+.loc__card {
+  background-color: #42484c;
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  text-transform: capitalize;
+  position: relative;
+}
+.loc__card > * {
+  display: flex;
+  gap: 1rem;
+}
+.loc__card svg {
+  width: 2rem;
+  height: auto;
+}
+.btn__cross {
+  position: absolute;
+  right: -1%;
+  top: -2%;
+}
+.btn__cross svg {
+}
+.form__inner input {
+  border: none;
+  /* width: 100%; */
+  border-radius: 0.4rem;
+  flex: 1;
+  padding: 0.2rem;
+  font-size: 1.8rem;
+  outline: none;
+  background-color: #fff;
+}
+.form__inner input {
+}
+.form {
+  height: 55rem;
+  width: 40%;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  background-color: #2c3438 !important;
+}

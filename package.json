@@ -1,0 +1,32 @@
+{
+  "name": "natours",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.2",
+    "@stripe/react-stripe-js": "^1.16.4",
+    "@stripe/stripe-js": "^1.46.0",
+    "cookies-next": "^2.1.1",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.2",
+    "google-map-react": "^2.2.0",
+    "gsap": "^3.11.4",
+    "moment": "^2.29.4",
+    "next": "13.1.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "react-map-gl": "^7.0.21",
+    "react-paginate": "^8.1.4",
+    "react-slick": "^0.29.0",
+    "react-stars": "^2.2.5",
+    "slick-carousel": "^1.8.1",
+    "stripe": "^11.8.0"
+  }
+}
